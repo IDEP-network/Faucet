@@ -108,8 +108,8 @@ class App extends React.Component {
             <h3>To request tokens using the faucet:</h3>
            
             <p className="text-justify cc"> 1) Enter the address of the wallet where you want to top up funds.</p>
-            <p className="text-justify cc"> 3) Click <strong>SUBMIT</strong>.</p>
-            <p className="text-justify cc"> 4) Funds will be in the testnet wallet you specified within a few seconds!</p>
+            <p className="text-justify cc"> 2) Click <strong>SUBMIT</strong>.</p>
+            <p className="text-justify cc"> 3) Funds will be in the testnet wallet you specified within a few seconds!</p>
             {/* <h5> Enter Account Address: {this.state.username}</h5> */}
             
                 <form onSubmit={this.mySubmitHandler}>
