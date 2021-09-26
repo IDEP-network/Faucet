@@ -1,6 +1,6 @@
 # IDEP Network faucet :potable_water: :potable_water: :potable_water:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Faucet URL: https://docs.idep.network
 
 ## Available Scripts
 
