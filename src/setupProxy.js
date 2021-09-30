@@ -13,6 +13,18 @@ module.exports = function (app) {
       }
     })
   );
+  app.use(
+    createProxyMiddleware('/api2', {
+      target: 'http://64.225.75.108:8080/createAcc', // API endpoint 2
+      changeOrigin: true,
+      pathRewrite: {
+        "^/api2": "",
+      },
+      headers: {
+        Connection: "keep-alive"
+      }
+    })
+  );
   
 }
 
