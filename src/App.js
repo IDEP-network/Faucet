@@ -102,7 +102,7 @@ class App extends React.Component {
 
     const data = { "accAddress": n };
     try {
-      const rawResponse = await fetch('https://api.idep.network/faucet', {
+      const rawResponse = await fetch('https://api.idep.network:8000/faucet', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -128,7 +128,7 @@ class App extends React.Component {
 
   async test1(n1) {
     const data1 = { "accName": n1 };
-    const rawResponse = await fetch('https://api.idep.network/faucet', {
+    const rawResponse = await fetch('https://api.idep.network:8000/faucet', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
