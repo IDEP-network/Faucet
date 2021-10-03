@@ -9,7 +9,7 @@ class Account extends React.Component {
      return (
         <div>
                <Recaptcha
-                  sitekey="6Le_SZAcAAAAANMWdmDJKQgoaF1QwXWZR6I9Ulxi"
+                  sitekey="6LeLa4ocAAAAALHMRehSUtwG9Y1WN9eJaPd9SnpZ"
                   render="explicit"
                   onloadCallback={this.recaptchaLoaded}
                   verifyCallback={this.verifyCallback}
