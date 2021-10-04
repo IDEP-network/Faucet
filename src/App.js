@@ -128,7 +128,7 @@ class App extends React.Component {
 
   async test1(n1) {
     const data1 = { "accName": n1 };
-    const rawResponse = await fetch('https://api.idep.network/faucet', {
+    const rawResponse = await fetch('https://api.idep.network/createAcc', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -200,7 +200,7 @@ class App extends React.Component {
                 </form>
                 <h2 className="mt-3"> {this.state.message}</h2>
                 <p className="text-justify cc">When you have finished using your test tokens, please return them to the faucet so that other members of the community can use them. Please return your test tokens to this address:</p>
-                <p className="text-dark cc1"><strong>6Lc25p4cAAAAAE5XsQ2pL1CkFH2Fa_YK0h_e7-bp</strong></p>
+                <p className="text-dark cc1"><strong>idep1jg3j2daytay2qgf6d3aftdxjwqzhe655z485c2</strong></p>
               </div>
             </div>
             <div className="col-md-4 pt-5">
