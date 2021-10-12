@@ -9,7 +9,7 @@ import { CreateWalletWrapper } from './styled'
 
 const FaucentCreateWallet = ({theme}) => {
     return (
-        <CreateWalletWrapper>
+        <CreateWalletWrapper name="get-started" >
             <Container>
                 <Flex $direction="column">
                     <Typography

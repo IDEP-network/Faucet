@@ -7,6 +7,7 @@ import { Typography } from '../Typography'
 import { DescriptionWrapper } from './styled'
 import BigLogo from '../../assets/black_text.png'
 import { withTheme } from 'styled-components'
+import { Link } from 'react-scroll'
 
 const FaucentDescription = ({theme}) => {
     return (
@@ -39,7 +40,9 @@ const FaucentDescription = ({theme}) => {
                         $radius="50px"
                         $color={theme.colors.white}
                     >
-                        Get Started
+                        <Link to="get-started" duration={500} smooth={true} >
+                            Get Started
+                        </Link>
                     </Button>
                 </Flex>
                 <Flex 
